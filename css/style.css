@@ -16,6 +16,11 @@ body{
     color: white;
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .flex{
     display: flex;
 }
@@ -42,3 +47,24 @@ header{
     padding: 3px;
 
 }
+
+/* MAIN */
+.cams{
+    flex-wrap: wrap;
+    padding: 40px 0;
+
+}
+
+.single-cam{
+    width: calc(100%/7);
+
+
+    /* dubug */
+    height: 90px;
+    border: 2px red solid;
+    
+}
+
+
+
+/* FOOTER */
