@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* Green #4BC800 */
+
 /* COMMON */
 body{
     font-family: sans-serif;
@@ -17,7 +19,7 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -42,7 +44,7 @@ header{
 
 .upper-option span{
     font-size: 0.6rem;
-    background-color: grey;
+    background-color: #4A4A4A;
     border-radius: 5px;
     padding: 3px;
 
@@ -51,20 +53,95 @@ header{
 /* MAIN */
 .cams{
     flex-wrap: wrap;
-    padding: 40px 0;
+    padding: 15px 0 10px;
+    row-gap: 10px;
+    column-gap: 5px;
 
 }
 
 .single-cam{
-    width: calc(100%/7);
+    width: calc(100%/7 - 5px);
 
+
+    
 
     /* dubug */
-    height: 90px;
-    border: 2px red solid;
+    /* height: 90px;
+    border: 2px red solid; */
     
+}
+.user{
+    position: relative;
+
+
+}
+
+.single-cam img{
+    width: 100%;
+}
+
+.name{
+    /* background-color: red; */
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    font-size: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);;
 }
 
 
 
 /* FOOTER */
+
+.footer-menu{
+    background-color: #222222;
+    font-size: 0.8rem;
+
+
+
+
+}
+
+.icon{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.nav-left, .nav-center, .nav-right{
+    align-items: center;
+    width: 100%;
+}
+
+.nav-center{
+    gap: 5px;
+}
+
+.nav-center .angle-up{
+    padding: 0 5px;
+
+}
+
+.full-icon{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    white-space: nowrap;
+}
+
+.angle-up{
+    padding: 0 10px;
+}
+
+
+.nav-right{
+
+    justify-content: flex-end;
+
+}
+
+.end-meet{
+    color: red;
+    background-color: #4A4A4A;
+
+}
